@@ -4,16 +4,21 @@
 
 |name|description|license|requires|
 |---|---|---|---|
-|scriptotek/sru-client|Package for making Search/Retrieve via URL requests and parse the responses|MIT|"danmichaelo/quitesimplexmlelement": ">=0.2.1"<br>"guzzle/guzzle": "~3.8"|
+|scriptotek/sru-client|Package for making Search/Retrieve via URL requests and parse the responses|MIT|danmichaelo/quitesimplexmlelement: >=0.2.1<br>guzzle/guzzle: ~3.8|
 |ck/sru|A very simple PHP SRU search client|-|-|
 
 ## MARC
 
 |name|description|license|requires|
 |---|---|---|---|
-|medlib/marcxml|-|MIT|"php": ">=5.5.9"<br>"nesbot/Carbon": "1.*"<br>"danmichaelo/quitesimplexmlelement": "~0.2.4"<br>"illuminate/support": "~4.1\|~5.0"|
+|medlib/marcxml|-|MIT|php: >=5.5.9<br>nesbot/Carbon: 1.*<br>danmichaelo/quitesimplexmlelement: ~0.2.4<br>illuminate/support: ~4.1\|~5.0|
 |scriptotek/marc|Simple interface to parsing MARC records using File_MARC|GNU-LGPL|php: >=5.3<br>ck/file_marc_reference: dev-master<br>pear/file_marc: *|
 |scriptotek/simplemarcparser|A simple MARC21/XML parser|MIT|php: >=5.3<br>danmichaelo/quitesimplexmlelement: ~0.2.4<br>nesbot/carbon: 1.*<br>illuminate/support: ~4.1\|~5.0|
+|pear/file_marc|Supports the MAchine Readable Cataloging (MARC) file format documented at http://loc.gov/marc/|LGPL-2.1|pear/pear_exception: 1.*|
+|ck/file_marc_reference|MARCspec adapter for File_MARC|MIT|ck/php-marcspec: ^1.0<br>php: >=5.4.0<br>pear/file_marc: ^1.1|
+|ck/php-marcspec|PHP based MARCspec parser and validator|MIT|php: >=5.4.0|
+|tonyhhyip/marc4php|Marc Handle with PHP|LGPL-3.0+|php: >=5.3.1|
+|swiss-social-archives/alephmarc2xml|This php class converts an MARC output from Aleph to a XML file|MIT|php: >=5.2|
 
 ## Pica
 
@@ -28,7 +33,7 @@
 
 |name|description|license|requires|
 |---|---|---|---|
-|scriptotek/alma-client|Package for interacting with some of the Alma APIs|MIT|"php" : "^5.5 \|\| ^7.0"<br>"guzzlehttp/guzzle": "~6.0"<br>"scriptotek/marc": "dev-master"<br>"danmichaelo/quitesimplexmlelement": "^0.3.0"<br>"scriptotek/sru-client": "~0.3.0"|
+|scriptotek/alma-client|Package for interacting with some of the Alma APIs|MIT|php : ^5.5 \|\| ^7.0<br>guzzlehttp/guzzle: ~6.0<br>scriptotek/marc: dev-master<br>danmichaelo/quitesimplexmlelement: ^0.3.0<br>scriptotek/sru-client: ~0.3.0|
 |hab/picaauth|A collection of authentication modules for Pica based library systems|GPL-3.0+|-|
 |hab/simplesamlphp-module-pica |Provides authentication module for Pica-based library systems|GPL-3.0+|simplesamlphp/composer-module-installer: ~1.0<br>hab/picaauth: ~0.1|
 
@@ -37,6 +42,12 @@
 |name|description|license|requires|
 |---|---|---|---|
 |scriptotek/oai-pmh-client|Package for harvesting data from OAI-PMH repositories|MIT|php: >=5.3<br>danmichaelo/quitesimplexmlelement: ~0.2<br>guzzle/guzzle: ~3.8<br>evenement/evenement: 1.0.*|
+
+# Data quality
+
+|name|description|license|requires|
+|---|---|---|---|
+|pear/validate_ispn|Validation class for ISPN (International Standard Product Numbers)|BSD-2-Clause|pear/validate: *|
 
 # Template
 
