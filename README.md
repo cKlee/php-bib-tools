@@ -45,6 +45,7 @@ Pull requests are welcome!
 |name|description|license|requires|
 |---|---|---|---|
 |scriptotek/oai-pmh-client|Package for harvesting data from OAI-PMH repositories|MIT|php: >=5.3<br>danmichaelo/quitesimplexmlelement: ~0.2<br>guzzle/guzzle: ~3.8<br>evenement/evenement: 1.0.*|
+|vufind-org/vufindharvest|VuFindHarvest contains OAI-PMH harvesting logic. This is part of the VuFind project (https://vufind.org) but may be used as a stand-alone tool or incorporated into other software dealing with metadata harvesting.|GPL-2.0|"zendframework/zend-console": ">=2.2"<br>"zendframework/zend-http": ">=2.2"|
 
 # Data quality
 
