@@ -14,10 +14,10 @@ Pull requests are welcome!
 |name|description|license|requires|
 |---|---|---|---|
 |medlib/marcxml|-|MIT|php: >=5.5.9<br>nesbot/Carbon: 1.*<br>danmichaelo/quitesimplexmlelement: ~0.2.4<br>illuminate/support: ~4.1\|~5.0|
-|scriptotek/marc|Simple interface to parsing MARC records using File_MARC|GNU-LGPL|php: >=5.3<br>ck/file_marc_reference: dev-master<br>pear/file_marc: *|
+|scriptotek/marc|Simple interface to parsing MARC records using File\_MARC|GNU-LGPL|php: >=5.3<br>ck/file\_marc\_reference: dev-master<br>pear/file_marc: *|
 |scriptotek/simplemarcparser|A simple MARC21/XML parser|MIT|php: >=5.3<br>danmichaelo/quitesimplexmlelement: ~0.2.4<br>nesbot/carbon: 1.*<br>illuminate/support: ~4.1\|~5.0|
-|pear/file_marc|Supports the MAchine Readable Cataloging (MARC) file format documented at http://loc.gov/marc/|LGPL-2.1|pear/pear_exception: 1.*|
-|ck/file_marc_reference|MARCspec adapter for File_MARC|MIT|ck/php-marcspec: ^1.0<br>php: >=5.4.0<br>pear/file_marc: ^1.1|
+|pear/file\_marc|Supports the MAchine Readable Cataloging (MARC) file format documented at http://loc.gov/marc/|LGPL-2.1|pear/pear_exception: 1.*|
+|ck/file\_marc\_reference|MARCspec adapter for File\_MARC|MIT|ck/php-marcspec: ^1.0<br>php: >=5.4.0<br>pear/file\_marc: ^1.1|
 |ck/php-marcspec|PHP based MARCspec parser and validator|MIT|php: >=5.4.0|
 |tonyhhyip/marc4php|Marc Handle with PHP|LGPL-3.0+|php: >=5.3.1|
 |swiss-social-archives/alephmarc2xml|This php class converts an MARC output from Aleph to a XML file|MIT|php: >=5.2|
@@ -40,6 +40,7 @@ Pull requests are welcome!
 |hab/simplesamlphp-module-pica |Provides authentication module for Pica-based library systems|GPL-3.0+|simplesamlphp/composer-module-installer: ~1.0<br>hab/picaauth: ~0.1|
 |worldcat/discovery|Library to interact with OCLC's WorldCat Discovery Web Services|Apache-2.0|php : >=5.4.0<br>lib-curl : *<br>lib-openssl : *<br>ext-curl : *<br>ext-json : *<br>ext-openssl : *<br>guzzle/guzzle : >=3.7.0,<3.9.0<br>easyrdf/easyrdf : *<br>OCLC/Auth : *|
 |gbv/lbs2daia|DAIA-API for LBS-Systems|-|php >=5.3.2|
+|bclibraries/php-alma|Access to Alma Web services in PHP.|MIT|php: >=5.3.0<br>phpunit/phpunit: 3.7.19<br>mockery/mockery: dev-master@dev<br>doctrine/cache: 1.*<br>pear/file\_marc: dev-master<br>pear/pear\_exception : @dev<br>guzzlehttp/guzzle: v3.8.1|
 
 # OAI-PMH
 
