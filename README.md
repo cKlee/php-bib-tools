@@ -61,6 +61,7 @@ Pull requests are welcome!
 |---|---|---|---|
 |vufind/vufind|A flexible discovery layer.|GPL-2.0|aferrandini/phpqrcode: 1.0.1<br>jasig/phpcas: 1.3.3<br>cap60552/php-sip2: 1.0.0<br>los/losrecaptcha: 1.0.0<br>ahand/mobileesp: dev-master<br>ocramius/proxy-manager: 1.0.2<br>oyejorge/less.php: 1.7.0.9<br>pear/file_marc: 1.1.2<br>pear/validate_ispn: dev-master<br>serialssolutions/summon: 1.0.0<br>symfony/yaml: 2.7.6<br>vufind-org/vufindcode: 1.0.2<br>vufind-org/vufindhttp: 2.0.0<br>zendframework/zendframework: 2.4.6<br>zendframework/zendrest: 2.0.2<br>zendframework/zendservice-amazon: 2.0.4<br>zf-commons/zfc-rbac: 2.5.2|
 |gbv/lukida|Discovery-Software from VZG|GNU AFFERO GENERAL PUBLIC LICENSE|1) Linux or Windows webserver with PHP, MySQL and ability to send mails<br>2) if used with solr index-system PHP PECL Solr Module https://pecl.php.net/package/solr|
+|bclibraries/primo-services|Access to Primo Web services|MIT|php: >=5.3.3<br>pimple/pimple: v1.0.2<br>doctrine/cache: 1.3.*<br>guzzle/http: 3.7.4<br>packfire/php5.3-compat: 1.0.0|
 
 # JSKOS
 
