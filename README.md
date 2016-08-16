@@ -39,6 +39,7 @@ Pull requests are welcome!
 |hab/picaauth|A collection of authentication modules for Pica based library systems|GPL-3.0+|-|
 |hab/simplesamlphp-module-pica |Provides authentication module for Pica-based library systems|GPL-3.0+|simplesamlphp/composer-module-installer: ~1.0<br>hab/picaauth: ~0.1|
 |worldcat/discovery|Library to interact with OCLC's WorldCat Discovery Web Services|Apache-2.0|php : >=5.4.0<br>lib-curl : *<br>lib-openssl : *<br>ext-curl : *<br>ext-json : *<br>ext-openssl : *<br>guzzle/guzzle : >=3.7.0,<3.9.0<br>easyrdf/easyrdf : *<br>OCLC/Auth : *|
+|gbv/lbs2daia|DAIA-API for LBS-Systems|-|php >=5.3.2|
 
 # OAI-PMH
 
@@ -65,6 +66,7 @@ Pull requests are welcome!
 |name|description|license|requires|
 |---|---|---|---|
 |gbv/jskos|PHP library to access and serve JSKOS data and services|LGPL|"phpunit/phpunit": "~4.8"<br>"jakub-onderka/php-parallel-lint": "~0.9"<br>"jakub-onderka/php-console-highlighter": "~0.3"|
+|gbv/orcid-jskos|This repository contains a wrapper written in PHP to access the public ORCID API in JSKOS format via Entity Lookup Microservice API (ELMA).|-|gbv/jskos: ^0.0.12<br>mashape/unirest-php: ^3.0|
 
 # Template
 
